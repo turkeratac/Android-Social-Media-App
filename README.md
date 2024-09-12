@@ -3,7 +3,7 @@ Android Social Media Application Programmed with Java
 
 Developed using Firebase database and authentication, and Android Studio with Java.
 
-"Neredeyim" provides real-time post sharing and viewing.
+This project provides real-time post sharing and viewing.
 
 Includes algorithms for user login and registration verification.
 
