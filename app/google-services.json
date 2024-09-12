@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "850009698297",
+    "firebase_url": "https://neredeyimapp-b480d-default-rtdb.firebaseio.com",
+    "project_id": "neredeyimapp-b480d",
+    "storage_bucket": "neredeyimapp-b480d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850009698297:android:fede1090aa72df169f5728",
+        "android_client_info": {
+          "package_name": "com.example.neredeyimapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtOGrANnneoIrTe3SElaAaVj3d8RAaOAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

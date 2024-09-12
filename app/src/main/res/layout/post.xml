@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="620dp"
+        android:background="#FFFAE5">
+
+        <ImageView
+            android:id="@+id/postKullaniciImageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:translationX="30dp"
+            android:translationY="10dp"
+            tools:srcCompat="@drawable/ornek" />
+
+        <TextView
+            android:id="@+id/postKullaniciAdiTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:translationX="80dp"
+            android:translationY="20dp" />
+
+        <ImageView
+            android:id="@+id/postImageView"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:translationY="60dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/postAciklamaTextView"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Açıklama"
+            android:textSize="15sp"
+            android:translationX="30dp"
+            android:translationY="510dp" />
+
+        <TextView
+            android:id="@+id/postBegeniSayisiTextView"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Kişi Beğendi"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:translationX="30dp"
+            android:translationY="560dp" />
+
+        <TextView
+            android:id="@+id/postAtilmaTarihiTextView"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="08.05.2024 - 21:00"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:translationX="30dp"
+            android:translationY="580dp" />
+
+        <View
+            android:id="@+id/greyLineView"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:background="#CCCCCC" />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
